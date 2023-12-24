@@ -51,7 +51,7 @@ def home():
         "Kaggle": ["https://www.kaggle.com/arnavsinghrana", "https://www.kaggle.com/static/images/site-logo.svg"],
         "LinkedIn": ["https://www.linkedin.com/in/arnav-singh-rana-a76508263/", "https://cdn-icons-png.flaticon.com/512/174/174857.png"],
         "GitHub": ["https://github.com/ArnavSinghRana01", "https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg"],
-        "Instagram": ["https://www.instagram.com/uk.culture.in/", "https://img.icons8.com/ios/50/000000/instagram-new--v1.png"]
+       
       
     }
     
@@ -62,7 +62,7 @@ def home():
         {''.join(social_icons_html)}
     </div>""", 
      unsafe_allow_html=True)
-    
+    st.markdown("---")
     st.write("##")
     
         # About me section
@@ -83,18 +83,36 @@ def home():
     - 🏠 Rishikesh , Uttarakhand , India
     """)
     
-    
+    st.markdown("---")
     st.write("##")
-    # My Projects section
-    st.header("My Projects")
-
+    # Projects Section
+    st.subheader("Projects")
+    # Project 1: Sales Dashboard
+    st.write("""
+    ### Sales Dashboard 📊
+    - **Project Link:** [Sales Dashboard](https://supermarket-sales-dashboard-qnan.onrender.com/)
+    - **GitHub Repository:** [Source Code](https://github.com/ArnavSinghRana01/Sales-Dashboard)
+    - **Description:** Explore the Sales Dashboard created with Streamlit and Plotly, providing insights into sales trends by product line and hourly patterns. Gain valuable data-driven perspectives for strategic decision-making.
+""")
+    
+    # Project 2: Portfolio (This Streamlit App)
+    st.write("""
+    ### Portfolio Streamlit App 🚀
+    - **Project Link:** [Portfolio](https://arnav-portfolio-sgu3.onrender.com/)
+    - **GitHub Repository:** [Source Code](https://github.com/ArnavSinghRana01/Arnav_Portfolio)
+    - **Description:** This Streamlit app showcases my personal portfolio, highlighting my skills, projects, and experience. Feel free to explore!
+    """)
+    
+    st.markdown("---")
     # Download CV button
+    st.write("##")
     st.download_button(
         label="📄 Download my CV",
         data=pdf_bytes,
         file_name="Arnav_Resume.pdf",
         mime="application/pdf",
     )
+ 
 
     
     
