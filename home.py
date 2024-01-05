@@ -107,14 +107,6 @@ def home():
     ### PBL Metrics Dashboard📊
     "The 'PBL Metrics Graphical Visualization in Wells' project focused on implementing graphical visualization for PBL metrics at Wells Fargo. It leveraged Python for scripting and data processing, Streamlit for creating interactive web applications, and Pyplotly for crafting engaging charts. Excel served as the primary data source for PBL metrics."
     """)
-    # Project 4: Currency Converter
-    st.write("""
-    ### Currency Converter Streamlit App 💱
-    - **Project Link:**[Currency Converter](https://currency-converter-3h6z.onrender.com/)
-    - **GitHub Repository:** [Currency Converter](https://github.com/ArnavSinghRana01/Currency-converter)
-    - **Description:** This Streamlit app allows users to convert between different currencies. It leverages Streamlit for the user interface and incorporates live exchange rates for accurate conversions. Feel free to check it out and try converting currencies on the fly!
-    """)
-
     
     st.markdown("---")
     # Download CV button
