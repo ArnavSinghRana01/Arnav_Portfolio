@@ -91,7 +91,6 @@ def home():
     st.write("""
     ### Sales Dashboard 📊
     - **Project Link:** [Sales Dashboard](https://supermarket-sales-dashboard-qnan.onrender.com/)
-    - **GitHub Repository:** [Source Code](https://github.com/ArnavSinghRana01/Sales-Dashboard)
     - **Description:** Explore the Sales Dashboard created with Streamlit and Plotly, providing insights into sales trends by product line and hourly patterns. Gain valuable data-driven perspectives for strategic decision-making.
 """)
     
@@ -99,7 +98,6 @@ def home():
     st.write("""
     ### Portfolio Streamlit App 🚀
     - **Project Link:** [Portfolio](https://arnav-portfolio-sgu3.onrender.com/)
-    - **GitHub Repository:** [Source Code](https://github.com/ArnavSinghRana01/Arnav_Portfolio)
     - **Description:** This Streamlit app showcases my personal portfolio, highlighting my skills, projects, and experience. Feel free to explore!
     """)
     # Project 3: PBL Metrics Dashboard
