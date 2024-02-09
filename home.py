@@ -112,7 +112,7 @@ def home():
     st.download_button(
         label="📄 Download my CV",
         data=pdf_bytes,
-        file_name="Arnav_Resume.pdf",
+        file_name="Arnav Resume.pdf",
         mime="application/pdf",
     )
  
