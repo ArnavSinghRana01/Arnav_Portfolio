@@ -70,7 +70,7 @@ def home():
     st.write("""
     - 🧑‍💻 I am a **System Operations Associate** @ [WellsFargo](https://www.wellsfargo.com/).
 
-    - ❤️ I am passionate about **Machine Learning/Deep Learning, Data,Artificial Intelligence, Computer Vision, Automation**, and more!
+    - ❤️ I am passionate about **Machine Learning, Data,Artificial Intelligence, LLM, Automation**, and more!
     
     - 🤖 I enjoy developing projects, and one of my notable creations is my digital CV, accessible at [My Digital Resume](https://arnav-digital-cv.onrender.com/). I love to enhance my skills, am passionate about learning new things, and constantly explore and challenge myself.
 
