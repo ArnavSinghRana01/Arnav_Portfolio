@@ -20,7 +20,7 @@ def home():
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
         
     # PDF CV file
-    with open("assets/Arnav Resume.pdf", "rb") as pdf_file:
+    with open("assets/Arnav_Resume.pdf", "rb") as pdf_file:
         pdf_bytes = pdf_file.read()
         
         # Top title
