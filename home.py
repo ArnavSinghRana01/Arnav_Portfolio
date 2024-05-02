@@ -16,7 +16,7 @@ def home():
         
     
     # Profile image file
-    with open("assets/arnav_photo.jpeg", "rb") as img_file:
+    with open("assets/nav_pic.jpeg", "rb") as img_file:
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
         
     # PDF CV file
