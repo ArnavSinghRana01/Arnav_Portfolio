@@ -20,7 +20,7 @@ def home():
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
         
     # PDF CV file
-    with open("assets/Arnav_Singh_Resume.pdf", "rb") as pdf_file:
+    with open("assets/Arnav Resume.pdf", "rb") as pdf_file:
         pdf_bytes = pdf_file.read()
         
         # Top title
@@ -112,7 +112,7 @@ def home():
     st.download_button(
         label="📄 Download my CV",
         data=pdf_bytes,
-        file_name="Arnav_Singh_Resume.pdf",
+        file_name="Arnav Resume.pdf",
         mime="application/pdf",
     )
  
