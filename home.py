@@ -51,6 +51,7 @@ def home():
         "Kaggle": ["https://www.kaggle.com/arnavsinghrana", "https://www.kaggle.com/static/images/site-logo.svg"],
         "LinkedIn": ["https://www.linkedin.com/in/arnav-singh-rana-a76508263/", "https://cdn-icons-png.flaticon.com/512/174/174857.png"],
         "GitHub": ["https://github.com/ArnavSinghRana01", "https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg"],
+        "HackerRank": ["https://www.hackerrank.com/profile/arnavsinghrana74", "https://hrcdn.net/community-frontend/assets/favicon-ddc852f75a.png"],
        
       
     }
@@ -90,7 +91,7 @@ def home():
     # Project 1: Sales Dashboard
     st.write("""
     ### Sales Dashboard 📊
-    - **Project Link:** [Sales Dashboard](https://supermarket-sales-dashboard-qnan.onrender.com/)
+    - **Project Link:** [Sales Dashboard](https://sales-dashboard-gbqq5s3uqxwy9ayr2gaeae.streamlit.app/)
     - **Description:** Explore the Sales Dashboard created with Streamlit and Plotly, providing insights into sales trends by product line and hourly patterns. Gain valuable data-driven perspectives for strategic decision-making.
 """)
     
